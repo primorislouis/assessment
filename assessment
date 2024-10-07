@@ -1,0 +1,29 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+
+    // method
+    static void verify(int age) {
+
+        if (age < 18) {
+            System.out.println("You are not over the age of 18.");
+        } else if (age >= 18) {
+            System.out.println("You are over the age of 18.");
+        }
+
+    }
+
+    public static void main(String[] args) {
+
+        int number = 0;
+        char letter = 'L';
+        boolean areYouOkay = true;
+        float decimal = 1.7f;
+        String word = "Louis";
+
+        System.out.println(letter);
+
+
+    }
+
+}
